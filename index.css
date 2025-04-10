@@ -1,0 +1,62 @@
+h1 {
+    color: blue;
+}
+
+.navigation {
+    width: 99vw;
+    border: 1px solid black;
+    background-color: chartreuse;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    margin-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.carsitem {
+    border: 1px solid black;
+    width: 200px;
+    padding: 70px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.carslist {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    border: 3px solid black;
+    background-color: blueviolet;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
